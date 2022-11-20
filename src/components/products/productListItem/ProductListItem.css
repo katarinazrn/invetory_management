@@ -1,0 +1,16 @@
+.delete-button {
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.delete-button,
+.edit-button {
+    color: var(--bg-dark);
+}
+
+.delete-button:hover,
+.edit-button:hover {
+    color: var(--accent);
+}

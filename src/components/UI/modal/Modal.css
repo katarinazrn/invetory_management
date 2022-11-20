@@ -1,0 +1,54 @@
+.backdrop {
+    background-color: rgba(31, 29, 68, 0.562);
+    width: 100vw;
+    height: 100vh;
+    z-index: 200;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+.modal .content {
+    z-index: 300;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--bg-light);
+    padding: 20px;
+}
+
+.modal .close {
+    background-color: transparent;
+    float: right;
+    color: var(--text-dark);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.modal .buttons {
+    display: flex;
+    justify-content: end;
+}
+
+.modal .buttons button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.cancel {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+}
+
+.confirm {
+    background-color: var(--bg-medium);
+    color: var(--text-dark);
+}
+
+.buttons button:hover {
+    background-color: var(--accent);
+}

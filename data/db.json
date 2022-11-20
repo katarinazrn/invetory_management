@@ -1,0 +1,128 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "code": "FR123",
+      "name": "Gold Circle Picture Frame",
+      "option1": "20x30",
+      "option2": "",
+      "avaliable": "5",
+      "in_stock": "10",
+      "incoming": "2",
+      "image": "goldframe.jpeg",
+      "category_id": "1",
+      "price": "12.99",
+      "sold": 1
+    },
+    {
+      "id": 2,
+      "code": "FR123",
+      "name": "Gold Circle Picture Frame",
+      "option1": "30x40",
+      "option2": "",
+      "avaliable": "5",
+      "in_stock": "6",
+      "incoming": "0",
+      "image": "goldframe.jpeg",
+      "category_id": "1",
+      "price": "15.25",
+      "sold": 10
+    },
+    {
+      "id": 3,
+      "code": "MI78",
+      "name": "HICOMILA Black Round Mirror",
+      "option1": "",
+      "option2": "",
+      "avaliable": "2",
+      "in_stock": "2",
+      "incoming": "8",
+      "image": "mirror.jpeg",
+      "category_id": "2",
+      "price": "58.00",
+      "sold": "30"
+    },
+    {
+      "id": 4,
+      "code": "WA3123",
+      "name": "Boho Wall Art Set of 3",
+      "option1": "",
+      "option2": "",
+      "avaliable": "1",
+      "in_stock": "1",
+      "incoming": "3",
+      "image": "boho.jpeg",
+      "category_id": "3",
+      "price": "36.99",
+      "sold": 80
+    },
+    {
+      "id": 5,
+      "code": "PI9090",
+      "name": "Flower Shaped Throw Pillow",
+      "option1": "green",
+      "option2": "",
+      "avaliable": "3",
+      "in_stock": "1",
+      "incoming": "2",
+      "image": "pillow.jpeg",
+      "category_id": "4",
+      "price": "15.99",
+      "sold": 120
+    },
+    {
+      "id": 6,
+      "code": "PI9090",
+      "name": "Flower Shaped Throw Pillow",
+      "option1": "blue",
+      "option2": "",
+      "avaliable": "4",
+      "in_stock": "3",
+      "incoming": "2",
+      "image": "",
+      "category_id": "4",
+      "price": "15.99",
+      "sold": 30
+    },
+    {
+      "id": 7,
+      "code": "VA9090",
+      "name": "Aoderun Flower Glass Vase ",
+      "option1": "",
+      "option2": "",
+      "avaliable": "2",
+      "in_stock": "0",
+      "incoming": "10",
+      "image": "vase.jpeg",
+      "category_id": "6",
+      "price": "16.99",
+      "sold": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "frames"
+    },
+    {
+      "id": "2",
+      "name": "mirrors"
+    },
+    {
+      "id": "3",
+      "name": "wall decor"
+    },
+    {
+      "id": "4",
+      "name": "pillows"
+    },
+    {
+      "id": "5",
+      "name": "rugs"
+    },
+    {
+      "id": "6",
+      "name": "vases"
+    }
+  ]
+}

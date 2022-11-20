@@ -1,0 +1,17 @@
+#new-category button {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    padding: 6px 10px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+#new-category button:hover {
+    background-color: var(--accent);
+}
+
+#new-category {
+    display: flex;
+    justify-content: end !important;
+    width: 100%;
+}

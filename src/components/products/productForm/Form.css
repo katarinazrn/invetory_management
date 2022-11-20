@@ -1,0 +1,25 @@
+#product-form {
+    background-color: var(--bg-light);
+    padding: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+select {
+    background-color: var(--bg-light);
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+#product-form button {
+    background-color: var(--accent);
+    padding: 10px 20px;
+    color: var(--bg-light);
+    font-weight: bold;
+}

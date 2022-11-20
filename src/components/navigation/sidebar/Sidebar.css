@@ -1,0 +1,37 @@
+#sidebar {
+    background-color: var(--bg-dark);
+    padding: 10px 0;
+    padding-top: 100px;
+    position: fixed;
+    height: 100vh;
+    width: 180px;
+    box-sizing: border-box;
+}
+
+#sidebar a {
+    padding: 10px 0;
+    padding-right: 40px;
+    margin-top: 10px;
+    display: flex;
+    font-weight: bold;
+}
+
+#sidebar .material-icons {
+    font-size: 16px;
+    margin: auto 5px;
+}
+
+#sidebar a:hover {
+    background-color: var(--accent);
+    color: var(--text-dark);
+}
+
+#sidebar a *:hover {
+    background-color: var(--accent);
+    color: var(--text-dark);
+}
+
+a.active {
+    color: var(--text-dark);
+    background-color: var(--accent);
+}

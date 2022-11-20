@@ -1,0 +1,23 @@
+#products-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#products {
+    overflow-x: auto;
+}
+
+#products-table th,
+#products-table td {
+    white-space: nowrap;
+    text-align: left;
+    padding: 8px;
+}
+
+#products-table tr:nth-child(even) {
+    background-color: var(--text-light);
+}
+
+#products-table thead {
+    margin-bottom: 40px;
+}
